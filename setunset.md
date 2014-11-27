@@ -1,13 +1,12 @@
 ---
 ---
-### Set / Unset
+#### Set / Unset
 
-Setting and unsetting of values
+Setting and unsetting of variables
 
-{% highlight php %}
-
+```php
 @set('newvar', 'value')
-{% raw %}{{ $newvar }}{% endraw %} // echo's "value"
+{{ $newvar }} // echo's "value"
 
 
 // All these combinations work
@@ -16,5 +15,4 @@ Setting and unsetting of values
 
 @set($mams, 'childs');
 @unset('mams');
-
-{% endhighlight %}
+```

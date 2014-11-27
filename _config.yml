@@ -14,6 +14,9 @@ data_source:  ./_includes/_data
 timezone:    Amsterdam/Netherlands
 future:      true
 
+kramdown:
+  input: GFM
+
 sass:
   sass_dir: _sass
   style: compressed
