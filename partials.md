@@ -8,7 +8,7 @@ Partials allow you to extend a view and inject content into it, inline, within y
 ####  Creating a Partial
 Partials start with the `@partial('path.to.view')` directive, which accepts the view you want the partial to extend from, and end with the `@endpartial` directive.
 
-{% highlight php %}
+{% highlight html %}
 @partial('partials.panel')
     @block('title', 'This is the panel title')
 
@@ -73,7 +73,7 @@ This example will include our partial HTML file. Notice that we can create as ma
 #### Nesting Partials
 You can also do some cool things by nesting partials. For example:
 
-{% highlight php %}
+{% highlight html %}
 // index.blade.php
 @extends('layouts.master')
 
