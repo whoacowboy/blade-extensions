@@ -4,7 +4,8 @@
 Allows all assertion functions to run inside a view.
 
 **ExampleTest.php**
-{% highlight PHP %}
+{% highlight php %}
+<?php
 use Radic\BladeExtensions\Testing\BladeViewTestingTrait;
 
 class ExampleTest extends TestCase {
@@ -23,7 +24,7 @@ class ExampleTest extends TestCase {
         View::make('viewone', array('testArray' => ['somevalue', 'aao']))->render();
     }
 }
-
+?>
 {% endhighlight %}
 
 **views/viewone.blade.php**
