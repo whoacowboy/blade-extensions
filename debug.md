@@ -6,7 +6,7 @@ By default it var_dumps and wraps the variable in pre, code.
 If Kint is installed, you'll get even more fancier output.
 Output of debug can be changed in the config file.
 
-{% highlight php %}
+{% highlight html %}
 
 @debug($var)
 

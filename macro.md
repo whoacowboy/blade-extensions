@@ -2,7 +2,7 @@
 ---
 ### Set / Unset
 
-{% highlight php %}
+{% highlight html %}
 
 @macro('simple', $first, $second = 3, $what)
     $who = $first . $second;

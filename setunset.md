@@ -4,7 +4,7 @@
 
 Setting and unsetting of variables
 
-{% highlight php %}
+{% highlight html %}
 @set('newvar', 'value')
 {% raw %}{{ $newvar }}{% endraw %} // echo's "value"
 

@@ -3,7 +3,7 @@
 #### Foreach / Break / Continue
 
 Introduces loop data when using foreach, also break and continue are available.
-{% highlight php %}
+{% highlight html %}
 
 @foreach($stuff as $key => $val)
     $loop->index;       // int, zero based
@@ -25,7 +25,7 @@ Introduces loop data when using foreach, also break and continue are available.
 
 Nesting loops is possible and gives access to the parent's loop using `$loop->parentLoop`
 
-{% highlight smarty %}
+{% highlight html %}
 
 @foreach($stuff as $key => $val)
     $loop->index;       // int, zero based
