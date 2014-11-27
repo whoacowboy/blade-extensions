@@ -4,9 +4,9 @@
 
 Setting and unsetting of variables
 
-```php
+{% highlight php %}
 @set('newvar', 'value')
-{{ $newvar }} // echo's "value"
+{% raw %}{{ $newvar }}{% endraw %} // echo's "value"
 
 
 // All these combinations work
@@ -15,4 +15,4 @@ Setting and unsetting of variables
 
 @set($mams, 'childs');
 @unset('mams');
-```
+{% endhighlight %}

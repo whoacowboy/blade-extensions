@@ -1,10 +1,16 @@
 ---
 ---
-### Set / Unset
+#### Debug
+
+By default it var_dumps and wraps the variable in pre, code.
+If Kint is installed, you'll get even more fancier output.
+Output of debug can be changed in the config file.
 
 {% highlight php %}
 
-@set('newvar', 'value')
-{{ $newvar }}
+@debug($var)
 
 {% endhighlight %}
+
+With Kint installed:
+![Screenshot](http://raveren.github.com/kint/img/preview.png)

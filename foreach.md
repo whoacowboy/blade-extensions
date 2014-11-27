@@ -1,7 +1,8 @@
 ---
 ---
-### Foreach / Break / Continue
+#### Foreach / Break / Continue
 
+Introduces loop data when using foreach, also break and continue are available.
 {% highlight php %}
 
 @foreach($stuff as $key => $val)
@@ -18,6 +19,27 @@
     @break
 
     @continue
+@endforeach
+
+{% endhighlight %}
+
+Nesting loops is possible and gives access to the parent's loop using `$loop->parentLoop`
+
+{% highlight smarty %}
+
+@foreach($stuff as $key => $val)
+    $loop->index;       // int, zero based
+
+    @foreach($other as $name => $age)
+        $loop->parentLoop->odd;
+
+        @foreach($friends as $foo => $bar)
+            $loop->parentLoop->index;
+            $loop->parentLoop->parentLoop->index;
+        @endforeach
+
+    @endforeach
+
 @endforeach
 
 {% endhighlight %}
