@@ -1,11 +1,11 @@
 ---
 ---
-### Partials
+#### Partials
 
 Partials allow you to extend a view and inject content into it, inline, within your views.
 
 
-####  Creating a Partial
+#####  Creating a Partial
 Partials start with the `@partial('path.to.view')` directive, which accepts the view you want the partial to extend from, and end with the `@endpartial` directive.
 
 {% highlight html %}
