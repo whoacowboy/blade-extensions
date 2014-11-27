@@ -1,5 +1,5 @@
 title:            Blade extensions
-description:      Extensions for Laravel's blade templating
+description:      Extensions for Laravel blade templating. Implements loop data and break/continue in foreach directive. View partials and blocks. Setting and unsetting of variables. Macros and debug.
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 url: http://robinradic.github.io

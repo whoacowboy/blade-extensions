@@ -2,6 +2,7 @@
 layout: faq
 title: Blade Extensions
 subtitle: Blade Extensions Documentation
+keywords: [laravel, blade, extension, template, partial, block, set, unset, php]
 comments: false
 widgets:
     - name: faq
