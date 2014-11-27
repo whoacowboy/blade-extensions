@@ -37,7 +37,7 @@ We use the `@render('block-to-render')` directive to render a block of content t
 #### Full Example
 This example will include our partial HTML file. Notice that we can create as many instances of the partial as we like.
 
-{% highlight php %}
+{% highlight html %}
 // index.blade.php
 @extends('layouts.master')
 
