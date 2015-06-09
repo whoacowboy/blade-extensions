@@ -1,7 +1,7 @@
 {
-    "name": "radic/blade-extensions",
+    "name": "whoacowboy/blade-extensions",
     "description": "Laravel package providing additional Blade extensions: foreach (with $loop data like twig), break, continue, set,array (multiline), etc",
-    "homepage": "https://github.com/RobinRadic/blade-extensions",
+    "homepage": "https://github.com/whoacowboy/blade-extensions",
     "keywords": [
         "loop",
         "extensions",
